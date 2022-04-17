@@ -36,3 +36,62 @@
         }
     }
 }
+
+
+// MEDIA FOR DESKTOP
+
+@media only screen and (max-width: 1220px) {
+    .intro__bg {
+        width: 550px;
+    }
+
+    .intro__title {
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .intro__bg {
+        width: 500px;
+    }
+
+    .intro__title {
+        font-size: 65px;
+        line-height: 65px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 935px) {
+    .intro__bg {
+        width: 450px;
+    }
+
+    .intro__title {
+        line-height: 60px;
+        width: 400px;
+        font-size: 50px;
+    }
+}
+
+
+// TABLETS
+@media only screen and (max-width: 768px) {
+    .intro__bg {
+        background-image: url(../../images/tablet-intro-img.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        width: 100%;
+    }
+
+    .intro__title {
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        width: 573px;
+        font-weight: 400;
+        // margin-left: auto;
+        // margin-right: auto;
+    }
+}
