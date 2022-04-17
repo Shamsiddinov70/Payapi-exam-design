@@ -1,0 +1,56 @@
+.footer {
+    background: $secondary-mirage-blue;
+    padding: 32px 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        margin-right: 64px;
+    }
+
+    &__nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    &__nav-item {
+        margin-right: 40px;
+    }
+
+    &__nav-link {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: $main-white;
+        opacity: 0.7;
+        transition: 0.2s ease;
+    }
+
+    &__nav-link:hover {
+        opacity: 1;
+    }
+
+    &__nav-link:active {
+        opacity: 0.8;
+    }
+
+    &__icons {
+        margin-left: auto;
+    }
+
+    &__icons-link {
+        margin-left: 24px;
+        transition: 0.3s ease;
+    }
+
+    &__icons-link:hover svg > .icon {
+        fill: $secondary-charm-pink;
+    }
+
+    &__icons-link:active svg > .icon {
+        opacity: 0.5;
+    }
+}

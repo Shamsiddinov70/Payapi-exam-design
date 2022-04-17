@@ -16,9 +16,13 @@
     transition: 0.2s ease;
     cursor: pointer;
 
-    &:active {
+    &:hover {
         background-color: $secondary-charm-pink;
         cursor: pointer;
+    }
+
+    &:active {
+        opacity: 0.6;
     }
 }
 
@@ -49,5 +53,5 @@ input {
 
 .form-btn {
     position: absolute;
-    left: 272px;
+    left: 271px;
 }

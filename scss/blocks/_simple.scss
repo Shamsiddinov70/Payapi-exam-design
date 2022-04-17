@@ -1,0 +1,41 @@
+.simple {
+    position: relative;
+    background-image: url(../images/two-phones.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 610px;
+    margin-bottom: 100px;
+
+
+    &__content {
+        position: absolute;
+        top: 200px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        color: $secondary-juan-blue;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 28px;
+        color: $third-light-juan-blue;
+        font-weight: 400;
+        width: 445px;
+    }
+}
+
+.simple__bg {
+        background-image: url(../images/simple-bg.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        height: 780px;
+        position: absolute;
+        width: 390px;
+        right: 0;
+        top: -136px;
+}

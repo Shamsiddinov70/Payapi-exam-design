@@ -1,0 +1,16 @@
+.ready {
+    margin-bottom: 100px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        color: $secondary-juan-blue;
+    }
+}
