@@ -1,15 +1,13 @@
 .simple {
     position: relative;
-    background-image: url(../images/two-phones.png);
-    background-repeat: no-repeat;
-    background-position: right center;
     height: 610px;
     margin-bottom: 100px;
 
-
-    &__content {
-        position: absolute;
-        top: 200px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
     }
 
     &__title {
@@ -27,7 +25,12 @@
         font-weight: 400;
         width: 445px;
     }
+
+    &__phones {
+        margin-left: 60px;
+    }
 }
+
 
 .simple__bg {
         background-image: url(../images/simple-bg.png);
@@ -38,4 +41,5 @@
         width: 390px;
         right: 0;
         top: -136px;
+        z-index: -1;
 }
