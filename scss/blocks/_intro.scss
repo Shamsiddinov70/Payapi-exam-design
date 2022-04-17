@@ -1,4 +1,5 @@
 .intro {
+    margin-bottom: 151px;
 
     &__bg {
         background-image: url(../images/intro-bg-image.png);
@@ -20,5 +21,17 @@
         width: 546px;
         height: 243px;
         margin-bottom: 21px;
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 18px;
+        color: #6C8294;
+        font-weight: 400;
+        margin-left: 27px;
+
+        span {
+            font-weight: bold;
+        }
     }
 }

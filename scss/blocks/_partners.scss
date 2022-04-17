@@ -1,0 +1,66 @@
+.partners {
+    background: $secondary-mirage-blue;
+    padding: 100px 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content {
+
+        &-title {
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            color: $main-white;
+            margin-bottom: 24px;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            color: $main-white;
+            opacity: 0.7;
+            width: 445px;
+            margin-bottom: 32px;
+        }
+
+        &-link {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            color: $main-white;
+            box-sizing: border-box;
+            border-radius: 24px;
+            border: 1px solid $main-white;
+            padding: 15px 32px;
+
+            &:active {
+                background: #FFFFFF;
+                color: $secondary-mirage-blue;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__logos {
+
+        &-img {
+            margin-left: 70px;
+        }
+    }
+
+    .logos-top {
+        display: flex;
+        margin-bottom: 45px;
+    }
+
+    .logos-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+}
