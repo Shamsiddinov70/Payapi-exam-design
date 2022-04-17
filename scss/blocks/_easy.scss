@@ -1,0 +1,32 @@
+.easy {
+
+    &__box {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        margin-right: 80px;
+        margin-left: -20px;
+    }
+
+    &__content {
+
+
+        &-title {
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 56px;
+            color: $secondary-juan-blue;
+            margin-bottom: 24px;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+            color: $third-light-juan-blue;
+            width: 445px;
+        }
+    }
+}

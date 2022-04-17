@@ -1,6 +1,10 @@
 .partners {
     background: $secondary-mirage-blue;
     padding: 100px 0;
+    background-image: url(../../images/partners-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-bottom: 130px;
 
     &__container {
         display: flex;
