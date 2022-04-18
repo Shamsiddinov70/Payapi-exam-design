@@ -81,3 +81,80 @@
         width: 350px;
     }
 }
+
+
+// MEDIA
+
+@media only screen and (max-width: 1070px) {
+    .card__text {
+        font-size: 14px;
+        line-height: 24px;
+        width: 280px;
+    }
+
+    .card__item1::before {
+        left: 80px;
+    }
+
+    .card__item2::before {
+        left: 80px;
+    }
+
+    .card__item3::before {
+        left: 80px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .card__text {
+        width: 240px;
+    }
+
+    .card__item1::before {
+        left: 68px;
+    }
+
+    .card__item2::before {
+        left: 68px;
+    }
+
+    .card__item3::before {
+        left: 68px;
+    }
+}
+
+
+// FOR TABLETS
+@media only screen and (max-width: 768px) {
+    .card__list {
+        margin-top: 300px;
+    }
+
+    .card__text {
+        width: 223px;
+    }
+
+    .card__item1::before {
+        background-image: url(../images/card-tablet-before1.svg);
+        width: 88px;
+        height: 88px;
+        left: 67px;
+        top: -40px;
+    }
+
+    .card__item2::before {
+        background-image: url(../images/card-tablet-before2.svg);
+        width: 88px;
+        height: 88px;
+        left: 67px;
+        top: -40px;
+    }
+
+    .card__item3::before {
+        background-image: url(../images/card-tablet-before3.svg);
+        width: 88px;
+        height: 88px;
+        left: 67px;
+        top: -40px;
+    }
+}

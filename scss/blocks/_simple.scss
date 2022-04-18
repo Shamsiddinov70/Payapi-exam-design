@@ -74,6 +74,10 @@
 
 
 @media only screen and (max-width: 768px) {
+    .simple {
+        // margin-bottom: 100px;
+    }
+
     .simple__box {
         flex-direction: column-reverse;
         text-align: center;
