@@ -158,3 +158,21 @@
         top: -40px;
     }
 }
+
+@media only screen and (max-width: 720px) {
+    .card__text {
+        width: 150px;
+    }
+
+    .card__item1::before {
+        left: 32px;
+    }
+
+    .card__item2::before {
+        left: 32px;
+    }
+
+    .card__item3::before {
+        left: 32px;
+    }
+}

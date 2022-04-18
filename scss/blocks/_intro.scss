@@ -117,3 +117,11 @@
         margin-top: -150px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .intro__title {
+        font-size: 46px;
+        line-height: 56px;
+        width: 490px;
+    }
+}

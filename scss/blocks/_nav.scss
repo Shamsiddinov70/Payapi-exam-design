@@ -27,6 +27,9 @@
 
 // MEDIA
 
-@media only screen and (max-width: 768px) {
-
+@media only screen and (max-width: 650px) {
+    .nav__link {
+        font-size: 13px;
+        line-height: 16;
+    }
 }

@@ -54,3 +54,19 @@
         opacity: 0.5;
     }
 }
+
+// MEDIA
+
+@media only screen and (max-width: 662px) {
+    .footer__nav-item:last-child {
+        margin-right: 0;
+    }
+
+    .footer__icons-link:first-child {
+        margin-left: 0;
+    }
+
+    .footer__logo {
+        margin-right: 30px;
+    }
+}

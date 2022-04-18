@@ -62,6 +62,23 @@ input {
     form {
         margin-left: auto;
         margin-right: auto;
-        // text-align: center;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .form-btn {
+        position: static;
+        width: 445px;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .site-logo {
+        margin-right: 22px;
+    }
+
+    .site-logo-img {
+        width: 115px;
     }
 }

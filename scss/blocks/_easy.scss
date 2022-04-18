@@ -92,3 +92,13 @@
         width: 573px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .easy__content-text {
+        width: 385px;
+    }
+
+    .easy__img {
+        margin-left: 30px;
+    }
+}
