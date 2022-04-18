@@ -82,3 +82,10 @@ input {
         width: 115px;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .site-logo-img {
+        width: 135px;
+        height: 38px;
+    }
+}
