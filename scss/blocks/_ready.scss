@@ -14,3 +14,20 @@
         color: $secondary-juan-blue;
     }
 }
+
+// MEDIA
+
+@media only screen and (max-width: 768px) {
+    .ready__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ready__btn {
+        left: 270px;
+    }
+
+    .ready__title {
+        margin-bottom: 40px;
+    }
+}
