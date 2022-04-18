@@ -1,5 +1,6 @@
 .intro {
     margin-bottom: 151px;
+    // text-align: center;
 
     &__bg {
         background-image: url(../images/intro-bg-image.png);
@@ -34,6 +35,10 @@
         span {
             font-weight: bold;
         }
+    }
+
+    &__right-img {
+        display: none;
     }
 }
 
@@ -78,8 +83,16 @@
 
 // TABLETS
 @media only screen and (max-width: 768px) {
+    .intro {
+        text-align: center;
+    }
+
+    .form-btn {
+        left: 412px;
+    }
+
     .intro__bg {
-        background-image: url(../../images/tablet-intro-img.png);
+        background-image: url(../images/tablet-intro-img.png);
         background-repeat: no-repeat;
         background-position: center top;
         width: 100%;
@@ -91,7 +104,14 @@
         text-align: center;
         width: 573px;
         font-weight: 400;
-        // margin-left: auto;
-        // margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro__right-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -150px;
     }
 }

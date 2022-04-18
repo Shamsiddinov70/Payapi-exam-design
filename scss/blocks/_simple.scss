@@ -43,3 +43,59 @@
         top: -136px;
         z-index: -1;
 }
+
+
+// MEDIA
+
+@media only screen and (max-width: 1345px) {
+    .simple__phones {
+        margin-left: 0;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 965px) {
+    .simple__phones {
+        width: 440px;
+    }
+
+    .simple__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .simple__text {
+        font-size: 14px;
+        line-height: 26px;
+        width: 255px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .simple__box {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .simple__phones {
+        width: 722px;
+    }
+
+    .simple__title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .simple__text {
+        font-size: 15px;
+        line-height: 28px;
+        width: 573px;
+    }
+
+    .simple__bg {
+        display: none;
+    }
+
+}

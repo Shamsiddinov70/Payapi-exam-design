@@ -7,6 +7,10 @@
     margin-right: 40px;
 }
 
+.nav__item:last-child {
+    margin-right: 0;
+}
+
 .nav__link {
     font-size: 15px;
     line-height: 18px;
@@ -18,4 +22,11 @@
 .nav__link:hover {
     opacity: 1;
     cursor: pointer;
+}
+
+
+// MEDIA
+
+@media only screen and (max-width: 768px) {
+
 }
