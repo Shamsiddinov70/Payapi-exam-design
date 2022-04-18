@@ -3,6 +3,12 @@
     align-items: center;
 }
 
+.intro__hr {
+    display: none;
+    // width: 249px;
+    // height: 1px;
+}
+
 .nav__item {
     margin-right: 40px;
 }
@@ -42,7 +48,7 @@
     .nav {
         display: none;
         height: 100vh;
-        width: 87%;
+        width: 85%;
         top: 0;
         right: 0;
         position: absolute;
@@ -52,8 +58,18 @@
     }
 
     .nav__list {
-      margin-top: 139px;
+      margin-top: 129px;
       flex-direction: column;
+    }
+
+    .intro__hr {
+        display: block;
+        width: 397px;
+        height: 1px;
+        background-color: $main-white;
+        border: none;
+        opacity: 0.15;
+        margin-top: -40px;
     }
 
     .nav__item {
@@ -65,6 +81,10 @@
         font-size: 20px;
         color: $main-white;
         margin-bottom: 32px;
+    }
+
+    .nav__link1 {
+        margin-top: 50px;
     }
 
     .toggle-close .toggle__line::after {
