@@ -102,3 +102,19 @@
         margin-left: 30px;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .easy__content-title {
+        line-height: 36px;
+        width: 327px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .easy__content-text {
+        font-size: 15px;
+line-height: 28px;
+width: 328px;
+text-align: center;
+    }
+}

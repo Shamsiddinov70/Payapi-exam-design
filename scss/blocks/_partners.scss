@@ -126,3 +126,61 @@
         width: 445px;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    // .partners__logos {
+    //     display: flex;
+    //     justify-content: space-between;
+    // }
+
+    // .partners__logos-img {
+    //     width: 115px;
+    //     margin: 0;
+    // }
+
+    // .logos-top {
+    //     flex-direction: column;
+    //     justify-content: space-between;
+    // }
+
+    // .logos-bottom {
+    //     flex-direction: column;
+    // }
+
+    .partners__logos {
+        display: none;
+    }
+
+    .partners__content {
+        position: relative;
+        margin-top: 280px;
+    }
+
+    .partners__content::before {
+        content: '';
+        background-image: url(../images/phone-partners-bg-svg.svg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        width: 280px;
+        height: 154px;
+        position: absolute;
+        left: 25px;
+        top: -315px;
+        margin-top: 70px;
+    }
+
+    .partners__content-title {
+        line-height: 36px;
+        width: 327px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 32px;
+    }
+
+    .partners__content-text {
+        line-height: 28px;
+        text-align: center;
+        width: 327px;
+        font-size: 15px;
+    }
+}

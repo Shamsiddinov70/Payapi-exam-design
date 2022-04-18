@@ -113,3 +113,28 @@
         margin-left: 40px;
     }
 }
+
+
+@media only screen and (max-width: 576px) {
+    .simple {
+        margin-bottom: 0;
+    }
+
+    .simple__phones {
+        width: 328px;
+    }
+
+    .simple__title {
+        line-height: 36px;
+        width: 327px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .simple__text {
+        line-height: 28px;
+        width: 328px;
+        text-align: center;
+        font-size: 15px;
+    }
+}

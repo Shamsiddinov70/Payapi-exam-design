@@ -31,3 +31,12 @@
         margin-bottom: 40px;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .ready__title {
+        line-height: 36px;
+        width: 328px;
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+}

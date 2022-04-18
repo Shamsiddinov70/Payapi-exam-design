@@ -116,6 +116,10 @@
         margin-right: auto;
         margin-top: -150px;
     }
+
+    .intro__text {
+        margin-left: 0;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -123,5 +127,22 @@
         font-size: 46px;
         line-height: 56px;
         width: 490px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .intro__right-img {
+        // margin-left: 150px;
+    }
+
+    .intro__title {
+        line-height: 36px;
+        text-align: center;
+        width: 327px;
+        font-size: 32px;
+    }
+
+    .intro__left {
+        margin-top: -65px;
     }
 }
