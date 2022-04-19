@@ -64,7 +64,7 @@
 
     .intro__hr {
         display: block;
-        width: 397px;
+        max-width: 397px;
         height: 1px;
         background-color: $main-white;
         border: none;
