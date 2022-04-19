@@ -189,3 +189,50 @@
         left: -15px;
     }
 }
+
+@media only screen and (max-width: 280px) {
+    .partners__content::before {
+        display: none;
+    }
+
+    .partners__logos {
+        display: block;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .logos-top {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .logos-bottom {
+        flex-direction: column;
+        margin: 0;
+        margin-bottom: 70px;
+        margin-top: -45px;
+    }
+
+    .partners__logos-img {
+        margin: 0;
+        margin-bottom: 20px;
+        height: 35px;
+        width: 115px;
+    }
+
+    .partners__content {
+        margin-top: 0;
+    }
+
+    .partners__content-title {
+        line-height: 30px;
+        width: 185px;
+        font-size: 22px;
+    }
+
+    .partners__content-text {
+        line-height: 22px;
+        width: 175px;
+        font-size: 10px;
+    }
+}

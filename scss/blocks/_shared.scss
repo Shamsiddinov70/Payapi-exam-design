@@ -107,3 +107,23 @@ input {
         width: 280px;
     }
 }
+
+@media only screen and (max-width: 315px) {
+    input {
+        width: 250px;
+    }
+
+    .form-btn {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    input {
+        width: 200px;
+    }
+
+    .form-btn {
+        width: 200px;
+    }
+}

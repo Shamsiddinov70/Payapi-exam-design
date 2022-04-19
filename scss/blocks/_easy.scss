@@ -135,3 +135,21 @@
         width: 200px;
     }
 }
+
+@media only screen and (max-width: 280px) {
+    .easy__img {
+        width: 200px;
+    }
+
+    .easy__content-title {
+        line-height: 30px;
+        font-size: 24px;
+        width: 200px;
+    }
+
+    .easy__content-text {
+        font-size: 10px;
+        width: 175px;
+        line-height: 20px;
+    }
+}

@@ -45,5 +45,13 @@
     .ready__title {
         line-height: 34px;
         font-size: 30px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .ready__title {
+        font-size: 28px;
+        line-height: 32px;
     }
 }

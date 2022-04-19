@@ -114,7 +114,8 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -150px;
+        margin-top: -50px;
+        margin-bottom: 70px;
     }
 
     .intro__text {
@@ -132,7 +133,9 @@
 
 @media only screen and (max-width: 576px) {
     .intro__right-img {
-        // margin-left: 150px;
+        width: 127px;
+        height: 240px;
+        margin-bottom: 90px;
     }
 
     .intro__title {
@@ -153,5 +156,22 @@
         width: 240px;
         font-size: 30px;
         margin-bottom: 130px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .intro__title {
+        line-height: 30px;
+        width: 165px;
+        font-size: 22px;
+        margin-bottom: 110px;
+    }
+
+    .intro__text {
+        line-height: 20px;
+        font-size: 15px;
+        width: 170px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
