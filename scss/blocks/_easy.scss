@@ -112,9 +112,26 @@
     }
 
     .easy__content-text {
+        line-height: 28px;
+        width: 328px;
+        text-align: center;
         font-size: 15px;
-line-height: 28px;
-width: 328px;
-text-align: center;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .easy__content-title {
+            line-height: 34px;
+            font-size: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+    }
+
+    .easy__content-text {
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
     }
 }

@@ -219,3 +219,23 @@
         top: -55px;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .card__text {
+            line-height: 22px;
+            width: 180px;
+            font-size: 12px;
+    }
+
+    .card__item1::before {
+        left: 35px;
+    }
+
+    .card__item2::before {
+        left: 35px;
+    }
+
+    .card__item3::before {
+        left: 35px;
+    }
+}
