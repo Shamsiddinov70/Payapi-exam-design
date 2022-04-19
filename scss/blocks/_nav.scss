@@ -5,8 +5,6 @@
 
 .intro__hr {
     display: none;
-    // width: 249px;
-    // height: 1px;
 }
 
 .nav__item {
@@ -58,8 +56,8 @@
     }
 
     .nav__list {
-      margin-top: 129px;
-      flex-direction: column;
+        flex-direction: column;
+        margin-top: 129px;
     }
 
     .intro__hr {
@@ -88,20 +86,20 @@
     }
 
     .toggle-close .toggle__line::after {
-      display: none;
+         display: none;
     }
 
     .toggle-close .toggle__line {
-      transform: rotate(45deg);
-      background-color: $main-white;
-      position: fixed;
+        background-color: $main-white;
+        position: fixed;
+        transform: rotate(45deg);
     }
 
     .toggle-close .toggle__line::before {
-      transform: rotate(-90deg);
-      margin-top: 8px;
-      background-color: $main-white;
-      position: fixed;
+        margin-top: 8px;
+        background-color: $main-white;
+        position: fixed;
+        transform: rotate(-90deg);
     }
 
 
