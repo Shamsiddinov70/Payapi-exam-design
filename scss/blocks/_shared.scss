@@ -51,6 +51,11 @@ input {
     }
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $secondary-juan-blue;
+    opacity: 0.5; /* Firefox */
+ }
+
 .form-btn {
     position: absolute;
     left: 271px;
